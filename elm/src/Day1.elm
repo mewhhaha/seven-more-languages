@@ -18,7 +18,7 @@ xes =
 
 
 
--- Eh, I guess you need to add context somehow. Would probably use a record for this to begin with.
+-- Would probably use a record for this since it's just listing data.
 
 
 type Address
