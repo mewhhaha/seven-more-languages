@@ -99,4 +99,4 @@ personRecordsAgeMaybe =
 
 over16Nil : List { a | age : Maybe Int } -> List { a | age : Maybe Int }
 over16Nil =
-    List.filter (\{ age } -> Maybe.withDefault -1 age > 16)
+    List.filter (.age >> Maybe.withDefault -1 >> (<) 16)
