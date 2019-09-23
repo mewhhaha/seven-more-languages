@@ -60,14 +60,14 @@ multiply68 =
 
 
 personRecords =
-    [ { name = "Jacob Torrång"
+    [ { name = "Person 1"
       , age = 29
       , address =
-            { name = "Lyckevägen"
-            , number = 8
+            { name = "Collahoppsvägen"
+            , number = 23
             }
       }
-    , { name = "Johannes Torrång"
+    , { name = "Person 2"
       , age = 12
       , address =
             { name = "Tjolahojsvägen"
